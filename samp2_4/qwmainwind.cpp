@@ -20,13 +20,11 @@
 
 //-----------------------------------------------------------------------------
 // 开发者信息：About 窗口里显示的内容就是下面这几行，
-// 请把“姓名、学号、班级、学校”改成自己的真实信息后再提交。
+// 请把“姓名、学号”改成自己的真实信息后再提交。
 //-----------------------------------------------------------------------------
 namespace DevInfo {
 const char *const kName   = "王俊康";
 const char *const kId     = "2024414290234";
-const char *const kClass  = "（待填写）";               // TODO: 改成自己的班级
-const char *const kSchool = "（待填写）";               // TODO: 改成自己的学校
 const char *const kCourse = "面向对象程序设计（Qt 程序设计）";//课程名称
 }
 
@@ -260,8 +258,6 @@ void QWMainWind::on_actAbout_triggered()
     int row = 0;
     addInfoLine(infoLayout, row++, ":/icons/user-line.svg",     tr("姓名"), DevInfo::kName);
     addInfoLine(infoLayout, row++, ":/icons/id-card-line.svg",  tr("学号"), DevInfo::kId);
-    addInfoLine(infoLayout, row++, ":/icons/school-line.svg",   tr("班级"), DevInfo::kClass);
-    addInfoLine(infoLayout, row++, ":/icons/school-line.svg",   tr("学校"), DevInfo::kSchool);
     addInfoLine(infoLayout, row++, ":/icons/book-2-line.svg",   tr("课程"), DevInfo::kCourse);
     addInfoLine(infoLayout, row++, ":/icons/computer-line.svg", tr("开发环境"),
                 QString("Qt %1 + MinGW 64-bit").arg(QT_VERSION_STR));

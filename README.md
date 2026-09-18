@@ -72,7 +72,7 @@ release\samp2_4.exe
 | --- | --- |
 | `samp2_4/qwmainwind.ui` | 新增 Action `actAbout`（文字“关于”）、新增顶级菜单 `menu_4`（“帮助”），并把 `actAbout` 放到工具栏 `mainToolBar` 的第 2 个位置 |
 | `samp2_4/qwmainwind.h` | 声明槽函数 `on_actAbout_triggered()` |
-| `samp2_4/qwmainwind.cpp` | 实现 About 窗口；在文件顶部用 `DevInfo` 命名空间集中保存姓名、学号、班级、学校、课程等个人信息 |
+| `samp2_4/qwmainwind.cpp` | 实现 About 窗口；在文件顶部用 `DevInfo` 命名空间集中保存姓名、学号、课程等个人信息 |
 | `samp2_4/res.qrc` | 新增 `/icons` 资源前缀，加入 RemixIcon 图标 |
 | `samp2_4/icons/svg/` | 从 RemixIcon 图标库下载的 SVG 图标 |
 
