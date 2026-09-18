@@ -1,5 +1,9 @@
 # 把本地 Qt 工程同步到 GitHub（QtCourse 仓库）
 
+> **当前进度**：GitHub 账号已注册（qiaomai487-spec），仓库已创建：
+> <https://github.com/qiaomai487-spec/QtCourse>（私有），本地代码已推送完成。
+> 下面第 1～4 步作为流程记录保留，以后只需要看第 6 步。
+
 ## 0. 准备情况
 
 下面这些已经在电脑上装好了，无需重复操作：

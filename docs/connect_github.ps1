@@ -1,4 +1,4 @@
-# 把本地 QtCourse 仓库连到 GitHub 并推送
+﻿# 把本地 QtCourse 仓库连到 GitHub 并推送
 #
 # 用法（在 QtCourse\docs 目录里打开 PowerShell）：
 #   powershell -ExecutionPolicy Bypass -File connect_github.ps1 -GitHubUser 你的用户名

@@ -1,4 +1,4 @@
-# 一键把本次修改提交并推送到 GitHub
+﻿# 一键把本次修改提交并推送到 GitHub
 # 用法：在仓库目录里右键 → “使用 PowerShell 运行”，或
 #       powershell -ExecutionPolicy Bypass -File push_to_github.ps1 "提交说明"
 
