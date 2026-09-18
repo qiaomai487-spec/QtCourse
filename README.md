@@ -95,7 +95,10 @@ About 窗口的图标来自开源图标库 **RemixIcon**（Apache-2.0 许可）�
 
 ## 六、同步到 GitHub
 
-见 [`docs/GitHub同步步骤.md`](docs/GitHub同步步骤.md)。
+本仓库已同步到：<https://github.com/qiaomai487-spec/QtCourse>
+
+日常修改后怎么提交、怎么推送，见 [`docs/GitHub同步步骤.md`](docs/GitHub同步步骤.md)，
+或者直接运行 `docs/push_to_github.ps1`（右键 → 使用 PowerShell 运行）。
 
 ## 七、提交记录
 
