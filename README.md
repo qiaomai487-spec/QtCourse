@@ -29,7 +29,8 @@ QtCourse/
 ├── .gitignore                    忽略 Qt Creator / qmake 生成的中间文件
 ├── docs/
 │   ├── GitHub同步步骤.md          把本地仓库同步到 GitHub 的详细步骤
-│   ├── push_to_github.ps1        一键提交并推送的辅助脚本
+│   ├── connect_github.ps1        一键创建远程仓库并推送（首次同步用）
+│   ├── push_to_github.ps1        一键提交并推送的辅助脚本（以后每次用）
 │   └── images/                   README 使用的截图
 └── samp2_4/                      实验工程（qmake 工程）
     ├── samp2_4.pro               工程文件

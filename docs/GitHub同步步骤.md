@@ -61,6 +61,14 @@ cd /d 仓库路径\QtCourse
 gh repo create QtCourse --public --source . --remote origin --push
 ```
 
+或者直接运行本文件夹里的 `connect_github.ps1`：
+
+```bat
+powershell -ExecutionPolicy Bypass -File connect_github.ps1 -GitHubUser 你的用户名
+```
+
+（脚本会自动完成“登录 → 创建远程仓库 → 推送”，不想公开仓库就再加 `-Private`。）
+
 ## 6. 以后每次修改后的同步流程
 
 ```bat
