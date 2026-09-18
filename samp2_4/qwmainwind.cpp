@@ -23,10 +23,10 @@
 // 请把“姓名、学号、班级、学校”改成自己的真实信息后再提交。
 //-----------------------------------------------------------------------------
 namespace DevInfo {
-const char *const kName   = "张三";                     // TODO: 改成自己的姓名
-const char *const kId     = "2023000000";               // TODO: 改成自己的学号
-const char *const kClass  = "计算机2301班";              // TODO: 改成自己的班级
-const char *const kSchool = "××大学";                    // TODO: 改成自己的学校
+const char *const kName   = "王俊康";
+const char *const kId     = "2024414290234";
+const char *const kClass  = "（待填写）";               // TODO: 改成自己的班级
+const char *const kSchool = "（待填写）";               // TODO: 改成自己的学校
 const char *const kCourse = "面向对象程序设计（Qt 程序设计）";//课程名称
 }
 
