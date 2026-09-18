@@ -1,0 +1,38 @@
+# ---------------------------------------------------------------
+# Qt Creator / qmake / 编译器生成的中间文件（不需要提交到仓库）
+# ---------------------------------------------------------------
+
+# Qt Creator 的本地用户配置（每台电脑都不一样）
+*.pro.user
+*.pro.user.*
+
+# qmake / uic / moc / rcc 自动生成的代码
+moc_*.cpp
+moc_*.h
+qrc_*.cpp
+ui_*.h
+qmake.stash
+
+# 构建产物目录
+build-*/
+debug/
+release/
+Makefile
+Makefile.*
+*.Debug
+
+# 目标文件与可执行文件
+*.o
+*.obj
+*.exe
+*.dll
+*.a
+*.lib
+*.so
+*.dylib
+
+# 其他
+*.log
+Thumbs.db
+Desktop.ini
+.DS_Store
